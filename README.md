@@ -12,7 +12,7 @@ It focuses on simplicity, developer productivity, and minimal boilerplate.
 
 ## Getting Started
 
-You must run `composer dump-autoload`
+You must run `composer install && composer dump-autoload`
 
 Define routes using simple callback handlers:
 
