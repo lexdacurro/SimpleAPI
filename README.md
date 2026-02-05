@@ -12,18 +12,20 @@ It focuses on simplicity, developer productivity, and minimal boilerplate.
 
 ## Getting Started
 
+You must run `composer dump-autoload`
+
 Define routes using simple callback handlers:
 
-    $app->get(PATTERN, function($params){
+    `$app->get(PATTERN, function($params){
 		  <YOUR CODE HERE>
-    });
+    });`
 
 The callback automatically receives route parameters when available.
     
-    $app->get('api/v1/{table_id}, function($params){
-				// this returns [{table_id} => <VALUE_HERE>]
-				print_r($params);
-    });
+    `$app->get('api/v1/{table_id}, function($params){
+        // this returns [{table_id} => <VALUE_HERE>]
+        print_r($params);
+    });`
 
 ### Key Features
 SimpleAPI takes inspiration from FastAPI while keeping PHP development straightforward and efficient

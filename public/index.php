@@ -8,7 +8,6 @@
 
 
     $app->get('/a/{test}', function($args){
-        
         if (!array_key_exists("404",$args)){
             print json_encode($args);
         }else{
@@ -19,7 +18,6 @@
     });
 
     $app->get('/api/v1/{id}', function($args){
-        print_r($args);
         if (!array_key_exists("404",$args)){
             print json_encode($args);
         }else{
