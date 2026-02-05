@@ -1,0 +1,19 @@
+{
+    "name": "dacs/phpfastapi",
+    "description": "Inspired by Python Fast API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SimpleApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexe Dacurro",
+            "email": "lexdacurro@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
